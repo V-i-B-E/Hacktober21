@@ -14,3 +14,50 @@ body {
 .p1 img{
     border-radius: 100%;
 }
+
+/*Footer Styles*/
+footer{
+  background-color:black;
+  color: rgb(92, 218, 207);
+  box-sizing: border-box;
+  padding: 50px 100px;
+  font-family: Helvetica, sans-serif;
+}
+
+.Fabr, .Ink{
+  font-size: 125%;
+  font-weight: bold;
+  position: relative;
+  left: 40px;
+
+}
+
+.heading{
+  font-size: 110%;
+  line-height: 200%;
+}
+
+.list{
+  list-style: none;
+}
+
+.list a{
+  display: block;
+  text-decoration: none;
+  color: rgb(29, 216, 200);
+}
+
+a:hover{
+  color: #fd045c;
+}
+
+.heading, .Fabr{
+  color: #fd045c;
+
+}
+
+.to-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
